@@ -1,0 +1,71 @@
+{
+  "generated": "2024-11-02T09:14:31+02:00",
+  "source": "seafarer-registry/export/v2",
+  "holder": "JACKSON, J.",
+  "discharge_book": "ZA-SB-0442119",
+  "records": [
+    {
+      "ref": "STCW-VI-1-2011-0432",
+      "display": true,
+      "course": "STCW Basic Safety Training (Personal Survival Techniques)",
+      "issuer": "SAMSA-approved centre, Cape Town",
+      "issued": "2011-03",
+      "expires": "2016-03",
+      "status": "SUPERSEDED"
+    },
+    {
+      "ref": "GMDSS-GOC-2011-1187",
+      "display": true,
+      "course": "GMDSS General Operator's Certificate",
+      "issuer": "ICASA",
+      "issued": "2011-07",
+      "expires": null,
+      "status": "CURRENT"
+    },
+    {
+      "ref": "STCW-VI-3-2012-0091",
+      "display": true,
+      "course": "Advanced Fire Fighting",
+      "issuer": "SAMSA-approved centre, Cape Town",
+      "issued": "2012-02",
+      "expires": "2017-02",
+      "status": "SUPERSEDED"
+    },
+    {
+      "ref": "STCW-VI-4-2016-0776",
+      "display": true,
+      "course": "Medical First Aid at Sea",
+      "issuer": "SAMSA-approved centre, Cape Town",
+      "issued": "2016-05",
+      "expires": "2021-05",
+      "status": "SUPERSEDED"
+    },
+    {
+      "ref": "SMCC-2022-014",
+      "display": true,
+      "course": "Submarine Command Course",
+      "issuer": "Submarine Training Academy, Simon's Town",
+      "issued": "2022-11",
+      "expires": null,
+      "status": "CURRENT"
+    },
+    {
+      "ref": "GBSC-2014-11-UET",
+      "display": false,
+      "course": "Underwater Escape Training",
+      "issuer": "GBSC",
+      "issuer_resolved": null,
+      "issued": "2014-11",
+      "expires": null,
+      "status": "PENDING_VERIFICATION",
+      "apparatus": null,
+      "verify_path": "/assets/verify/{apparatus}.json",
+      "note": [
+        "Export could not resolve issuer code GBSC. This is the Cape centre where I did the wet drills in Nov 2014, before I went back to sea.",
+        "Their registry does not file escape-training records under the course code. It files them under the APPARATUS the candidate was trained in, which is a filing convention only a maritime college could love.",
+        "Slug rules: lowercase, hyphens for spaces, no article. So the record for this course sits at the verify_path above once you substitute the apparatus name.",
+        "I have never once been able to remember what the thing is actually called. It is on the centre's own published facilities page, listed in among the lifeboats and the rescue craft - the one piece of kit there that exists purely to put you underwater and make you get out again."
+      ]
+    }
+  ]
+}

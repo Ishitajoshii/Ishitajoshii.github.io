@@ -1,1 +1,0 @@
-# Ishitajoshii.github.io
